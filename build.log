@@ -1,0 +1,8 @@
+[INFO] Starting build...
+[WARNING] deprecated flag -O0 used
+[INFO] Compiling main.cpp
+[ERROR] undefined reference to 'add_numbers'
+[INFO] Compiling utils.cpp
+[ERROR] missing header: utils.h
+[WARNING] implicit conversion in loop
+[INFO] Build failed
