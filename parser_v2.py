@@ -32,13 +32,26 @@ def summarise(lines):
 def get_args():
     parser = argparse.ArgumentParser(description="Build log analyser")
     parser.add_argument("--input", required=True, help="Path to log file")
+    parser.add_argument("--output", help="Write summary to file")
+    parser.add_argument("--verbose", action="store_true")
     return parser.parse_args()
     
 def main():
     args = get_args()
+
+    if args.verbose:
+        logging.getLogger().setLevel(logging.DEBUG)
+
     lines = read_log(args.input)
-    counts=summarise(lines)
-    for tag,cnt in counts.items():
+    counts = summarise(lines)
+
+    for tag, cnt in counts.items():
         logging.info(f"{tag} : {cnt}")
+
+    if args.output:
+        with open(args.output, "w") as f:
+            for tag, cnt in counts.items():
+                f.write(f"{tag}: {cnt}\n")
+        logging.info(f"Summary written to {args.output}")
         
 main()
