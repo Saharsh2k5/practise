@@ -1,0 +1,48 @@
+[2026-05-21 18:14:10] Directory logs not found — creating it
+[2026-05-21 18:14:10] Running log parser
+[2026-05-21 18:14:10] Parser finished successfully
+[2026-05-21 18:14:10] Error count by type:
+[2026-05-21 18:14:10]   INFO: 4
+[2026-05-21 18:14:10]   WARNING: 2
+[2026-05-21 18:14:10]   ERROR: 2
+[2026-05-21 18:14:10] Done
+[2026-05-21 18:19:46] Directory logs exists
+[2026-05-21 18:19:46] Running log parser
+[2026-05-21 18:19:46] Parser finished successfully
+[2026-05-21 18:19:46] Error count by type:
+[2026-05-21 18:19:46]   INFO: 4
+[2026-05-21 18:19:46]   WARNING: 2
+[2026-05-21 18:19:46]   ERROR: 2
+[2026-05-21 18:19:46] Done
+[2026-05-21 18:20:10] Directory logs exists
+[2026-05-21 18:20:10] Running log parser
+[2026-05-21 18:20:10] Parser finished successfully
+[2026-05-21 18:20:10] Error count by type:
+[2026-05-21 18:20:10]   INFO: 4
+[2026-05-21 18:20:10]   WARNING: 2
+[2026-05-21 18:20:10]   ERROR: 2
+[2026-05-21 18:20:10] Done
+[2026-05-21 18:20:19] Directory logs exists
+[2026-05-21 18:20:19] Running log parser
+[2026-05-21 18:20:19] Parser finished successfully
+[2026-05-21 18:20:19] Error count by type:
+[2026-05-21 18:20:19]   INFO: 4
+[2026-05-21 18:20:19]   WARNING: 2
+[2026-05-21 18:20:19]   ERROR: 2
+[2026-05-21 18:20:19] Done
+[2026-05-21 18:20:45] Directory logs exists
+[2026-05-21 18:20:45] Running log parser
+[2026-05-21 18:20:45] Parser finished successfully
+[2026-05-21 18:20:45] Error count by type:
+[2026-05-21 18:20:45]   INFO: 4
+[2026-05-21 18:20:45]   WARNING: 2
+[2026-05-21 18:20:45]   ERROR: 2
+[2026-05-21 18:20:45] Done
+[2026-05-21 18:21:16] Directory logs exists
+[2026-05-21 18:21:16] Running log parser
+[2026-05-21 18:21:16] Parser finished successfully
+[2026-05-21 18:21:16] Error count by type:
+[2026-05-21 18:21:16]   INFO: 4
+[2026-05-21 18:21:16]   WARNING: 2
+[2026-05-21 18:21:16]   ERROR: 2
+[2026-05-21 18:21:16] Done
