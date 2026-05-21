@@ -2,7 +2,7 @@ from collections import Counter
 import argparse
 from pathlib import Path
 import logging
-logging.basicConfig(level=logging.INFO,format='[%(levelname)s]  %(message)s')
+logging.basicConfig(level=logging.INFO,format='[%(levelname)s] %(message)s')
 
 # read_log     → opens any file safely, handles missing files
 # summarise    → classifies and counts log lines by tag  
