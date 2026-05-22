@@ -1,0 +1,32 @@
+name: Log Parser CI
+
+on: [push]
+
+jobs:
+    test:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v3
+
+            - name: Set up Python
+              uses: actions/setup-python@v4
+              with:
+                python-version: '3.12'
+
+            - name: Install dependencies
+              run: pip install pytest
+
+            - name: Run tests
+              run: pytest test_parser.py -v
+
+            - name: Run parser on sample log
+              run: python parser_v2.py --input build.log --output summary.txt
+
+            - name: Show summary
+              run: cat summary.txt 
+                
+
+
+
