@@ -21,4 +21,6 @@ def main():
     print("Found",cnt, "errors.")
     for k, v in d.items():
         print(k,":",v)
-main()
+        
+if __name__ == "__main__":
+    main()

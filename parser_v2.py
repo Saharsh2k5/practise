@@ -54,4 +54,5 @@ def main():
                 f.write(f"{tag}: {cnt}\n")
         logging.info(f"Summary written to {args.output}")
         
-main()
+if __name__ == "__main__":
+    main()
