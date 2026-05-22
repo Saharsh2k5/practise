@@ -4,4 +4,4 @@ Changes to be made.
 
 Need to understand the pull request this is for that.
 
-Understood the usaga of CMake in projects. by cloning the cmake-examples repo and doing the build , cmnake.. , make then running the binary.
+Understood the usage of CMake in projects. By cloning the cmake-examples repo and doing the build , cmnake.. , make then running the binary.
